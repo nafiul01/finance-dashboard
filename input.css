@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+    html {
+      font-family: 'Mulish', sans-serif;
+    }
+  }
+
+@layer components{
+  .menu{
+    @apply font-extrabold text-xs 2xl:text-base flex flex-col grow-0 gap-1 2xl:gap-5 m-5 ml-auto mr-auto w-7/12 2xl:w-9/12 max-w-xs;
+  }
+
+  .menu-list{
+    @apply flex gap-4 items-center px-7 py-4 text-teColor fill-teColor hover:bg-mvColor hover:fill-bColor hover:text-bColor rounded-md;
+  }
+
+  .btn{
+    @apply font-black text-[10px] md:text-xs 2xl:text-base uppercase px-3 py-1 md:px-5 md:py-2 lg:px-6 lg:py-2 2xl:px-8 2xl:py-4 rounded-[60px] border-2 border-bColor;
+  }
+}
