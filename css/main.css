@@ -510,7 +510,7 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .menu-list:hover{
   --tw-bg-opacity: 1;
-  background-color: rgb(209 213 219 / var(--tw-bg-opacity));
+  background-color: rgb(228 227 255 / var(--tw-bg-opacity));
   fill: #4C49ED;
   --tw-text-opacity: 1;
   color: rgb(76 73 237 / var(--tw-text-opacity));
