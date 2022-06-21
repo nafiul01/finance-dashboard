@@ -1,12 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@200;400;500;700;800;900&display=swap');
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
-@layer base {
-    html {
-      font-family: 'Mulish', sans-serif;
-    }
-  }
+
 
 @layer components{
   .menu{
@@ -14,10 +12,10 @@
   }
 
   .menu-list{
-    @apply flex gap-4 items-center px-7 py-4 text-teColor fill-teColor hover:bg-mvColor hover:fill-bColor hover:text-bColor rounded-md;
+    @apply flex gap-4 items-center px-7 py-4 text-secondaryColor fill-secondaryColor hover:bg-primaryColorShade hover:fill-primaryColor hover:text-primaryColor rounded-md;
   }
 
   .btn{
-    @apply font-black text-[10px] md:text-xs 2xl:text-base uppercase px-3 py-1 md:px-5 md:py-2 lg:px-6 lg:py-2 2xl:px-8 2xl:py-4 rounded-[60px] border-2 border-bColor;
+    @apply font-black text-[10px] md:text-xs 2xl:text-base uppercase px-3 py-1 md:px-5 md:py-2 lg:px-6 lg:py-2 2xl:px-8 2xl:py-4 rounded-[60px] border-2 border-primaryColor;
   }
 }
